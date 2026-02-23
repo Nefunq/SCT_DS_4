@@ -95,8 +95,6 @@ plt.tight_layout()
 plt.savefig('ds_task4.4.png')
 plt.show()
 
-
-"""
 # 5. Accident Severity distribution
 plt.figure(figsize=(8,5))
 sns.countplot(data=df_clean, x='Accident_Severity')
@@ -169,5 +167,3 @@ plt.xlabel('Count')
 plt.tight_layout()
 plt.savefig('ds_task4.9.png')
 plt.show()
-
-"""
