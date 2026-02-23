@@ -10,6 +10,11 @@ warnings.filterwarnings('ignore')
 # Load the dataset
 df = pd.read_csv('Road Accident Data.csv')
 
+# Someone must have written 'Fetal' instead of 'Fatal'. Noticed it in 'Accident Severity Distribution Graph'.
+# The csv has more than 3m entries, Not sure how many times the error occured.
+# Replacing 'Fetal' with 'Fatal', thus solving the issue.
+df['Accident_Severity'] = df['Accident_Severity'].replace('Fetal', 'Fatal')
+
 # Display basic info
 print("Dataset shape:", df.shape)
 print("\nFirst few rows:")
