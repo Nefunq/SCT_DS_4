@@ -1,0 +1,17 @@
+# Data manipulation
+pandas
+numpy
+
+# Static plots
+matplotlib
+seaborn
+
+# Interactive maps (needed manual install even in Anaconda)
+folium
+
+# If you're using Anaconda, most of these (except folium) come pre-installed. But it's still good practice to list them so others know what's needed.
+
+# You can install missing packages with:
+# pip install -r requirements.txt
+
+#HAPPY CODING!
